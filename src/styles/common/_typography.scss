@@ -1,0 +1,151 @@
+/////// Aqui vai todos os estilos de fontes que existe no site
+
+body {
+	font-family: 'Roboto', sans-serif;
+	//estilo
+}
+
+p {	
+	//estilo
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 0 24px;
+
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+	
+	//estilo
+	
+
+	&.title-content {
+		//estilo
+		font-size: 30px;
+		line-height: 30px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	&.title-section {
+		//estilo
+		font-size: 26px;
+		line-height: 30px;
+		color: $color-red;
+
+
+	}
+}
+
+h1, .h1 {
+	
+
+//font-size e line-height
+}
+h2, .h2 {
+	
+//font-size e line-height
+}
+h3, .h3 {
+	
+//font-size e line-height
+}
+h4, .h4 {
+	
+//font-size e line-height
+}
+h5, .h5 {
+	
+//font-size e line-height
+}
+
+
+//transformação da fonte
+.uppercase {
+	text-transform: uppercase !important;
+}
+.capitalize {
+	text-transform: capitalize !important;
+}
+.divboxtext {
+    width: 670px;
+    height: 96px;
+    font-size: 14px;
+	margin: 31px 135px 47px 635px;
+}
+
+.transform-none {
+	text-transform: none !important;
+}
+
+
+// alinhamento do texto
+.text-center {
+	text-align: center !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.text-centered {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.text-justify {
+	text-align: justify !important;
+}
+
+// Weight
+.text-semibold {
+	font-weight: 600 !important;
+}
+.text-bold {
+	font-weight: 700 !important;
+}
+.text-light {
+	font-weight: 100 !important;
+}
+.text-normal {
+	font-weight: 100 !important;
+}
+
+
+// cores do texto
+.text-red {
+	color: $color-red !important;
+}
+.text-gray-dark{
+	color: $color-gray-dark !important;
+}
+.text-white {
+	color:$color-white !important; 
+}
+.hr-gray{
+	border-color: $color-gray-light-1 !important;
+}
+//cores 
+.color-bg-red{
+	background-color: $color-red !important;
+}
+.color-bg-white{
+	background-color: $color-white !important;
+}
+.color-bg-gray-l{
+	background-color: $color-gray-light !important;
+}
+
+//bordas
+.border-top{
+	border-top: 1px solid #D9D9D9;
+	width: 100%;
+}
+//hr
+.hr-total{
+	max-width: 100% !important;
+}
+
+.not-padding-top-but {
+padding-top: 0 !important;
+padding-bottom: 0 !important;
+}

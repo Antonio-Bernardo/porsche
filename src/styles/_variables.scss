@@ -1,0 +1,50 @@
+// Paleta de cores do site
+$color-red: #E52E2E;
+$color-red-dark: #801A1A;
+$color-gray-dark-1: #4D4D4D;
+$color-white: #FFFFFF;
+$color-gray-medium: #3E4146;
+$color-gray-dark: #3D4045;
+$color-gray-light: #F1F1F1;
+$color-black: #19191A;
+$color-gray-light-1: #D9D9D9;
+
+// Importação de font do site
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+// Grid configurações
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+
+$screen-sm: 768px;
+$screen-md: 1024px;
+$screen-lg: 1170px;
+
+$grid-container-max-size: 1170px;
+
+//$font-display: 'Saira', sans-serif;
+$font-text: 'Roboto', sans-serif;
+$font-weight-heading: 400;
+
+// Separadores
+$separate-base: 32px;
+$separate-title-from-content: $separate-base * 2;
+$separate-text-from-content: $separate-base + 16px;
+
+
+//Hr
+
+
+
+
+
+// Icones
+$icomoon-font-family: "gt3" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-arrow-up: "\e900";
+$icon-instagram: "\e901";
+$icon-youtube: "\e902";
+$icon-facebook: "\e903";
+$icon-search: "\e986";
+//

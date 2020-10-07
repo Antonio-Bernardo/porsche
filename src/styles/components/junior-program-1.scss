@@ -1,0 +1,24 @@
+.logo-pjs {
+    max-width: 100%;
+    float: left;
+    margin-bottom: $separate-base;
+}
+.hr-red{
+    border-color: $color-red;
+    margin: 0;
+    padding: 0;    
+}
+.separate-divbox {
+    margin-top: 36px;
+}
+.bg-juniorprogram{
+    background-image: url('/images/bg-juniorprogram.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width:500px){
+    .video-jr{
+        height: 300px;
+    }
+}

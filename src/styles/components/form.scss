@@ -1,0 +1,114 @@
+// formulário newsletter
+.text-input {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: $color-gray-dark-1;
+}
+.form-newsletter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  @media screen and (max-width: 1023px) {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+  .input-newsletter {
+    width: 100%;
+    border: 0.2px solid black;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: $color-gray-dark-1;
+    
+  }
+  .imput-enviar {
+    background-color: $color-red;
+    border-radius: 2px;
+    border-color: transparent;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 20px 10px 20px;
+    transform: skewX(-12deg);
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: #7e2321;
+    }
+  }
+}
+
+//Formulario fale conosco
+.form-contato {
+  display: flex;
+  justify-content: space-between;
+  .text-input-contato {
+    color: $color-red;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .div-input-contato {
+    box-sizing: border-box;
+
+    .input-contato {
+      width: 100%;
+      border: 0.2px solid black;
+      margin-bottom: 30px;
+      margin-right: 10px;
+      padding: 10px 15px;
+      line-height: 15px;
+      font-size: 15px;
+      text-align: center;
+      color: $color-gray-dark-1;
+      box-sizing: border-box;
+    }
+    .input-contato-msg {
+      resize: none;
+      width: 100%;
+      border: 0.2px solid black;
+      margin-bottom: 30px;
+      padding: 10px 15px;
+      line-height: 15px;
+      font-size: 15px;
+      color: $color-gray-dark-1;
+      box-sizing: border-box;
+    }
+    @media screen and (max-width: 1023px) {
+      padding-left: 0;
+      padding-right: 0;
+      .input-contato {
+        margin-right: 0;
+      }
+    }
+  }
+  .div-enviar {
+    display: flex;
+    justify-content: center;
+    .imput-enviar {
+      background-color: $color-red;
+      border-radius: 2px;
+      border-color: transparent;
+      color: white;
+      font-size: 11px;
+      font-weight: bold;
+      font-style: italic;
+      padding: 10px 20px 10px 20px;
+      transform: skewX(-12deg);
+      text-align: center;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: #7e2321;
+      }
+    }
+  }
+}
+.div-text-area{
+  max-width: 100% !important;
+}

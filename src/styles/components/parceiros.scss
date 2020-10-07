@@ -1,0 +1,26 @@
+.parceiros {
+  border-bottom: 1px solid $color-red;
+  padding: 30px 0 30px 0;
+  &:last-child {
+    border-bottom: none;
+    padding-right: 10px;
+  }
+  a {
+    color: $color-red;
+    text-decoration: none;
+  }
+  .img-parceiros {
+    float: left;
+    width: 100%;
+  }
+  .title-parceiros {
+    color: $color-gray-dark-1;
+    font-size: 16px;
+    line-height: 24px;
+    .text-parceiros {
+      color: $color-gray-dark-1;
+      font-size: 13px;
+    }
+  }
+ 
+}

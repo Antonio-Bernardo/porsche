@@ -1,0 +1,68 @@
+.banner-carrosel{
+    position: absolute;
+    .banner-carrosel-item{
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .description-banner{
+            max-width: 607px;
+            background-color: rgba(25,25,26,.7);
+            padding: 14px 25px;
+            margin-top: 450px;
+            display: inline-block;
+
+            .text-banner{
+                color: white;
+                font-size: 20px;
+                margin-bottom: 0;
+
+            }
+            @media screen and (max-width: 530px){
+                margin-top: 375px;
+            }
+        }
+    }
+    .owl-dots{
+        bottom: 40px;
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: block;
+        left: 0;
+        right: 0;
+        position: absolute;
+        text-align: left;
+        button.owl-dot{
+            span{
+                background-color: white;
+               height: 4px;
+               width: 80px; 
+               transform: skewX(-12deg);
+               border-radius: 0;
+            }
+            &.active{
+                span{
+                    background-color: $color-red;
+                    height: 8px;
+                }
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+        @media screen and (max-width:1024px){
+            left: 15px;
+        }
+        @media screen and (max-width:425px){
+            button.owl-dot{
+                span{
+                    width: 50px;
+                }
+            }
+        }
+    }
+
+}

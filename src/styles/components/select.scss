@@ -1,0 +1,143 @@
+//pagina etapas
+.line-options-etapas {
+  border-left: 1px solid #f1f1f1;
+
+  .img-seta-etapas {
+    float: right;
+    position: absolute;
+    padding: 35px 20px 0 100px;
+  }
+  .select-date {
+    position: relative;
+    padding-left: 28px;
+    color: #3e4146;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    -webkit-appearance: none; /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+    background-position: 218px center; /*Posição da imagem do background*/
+    width: 119px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 75px;
+    .option-date {
+      background-color: #f1f1f1;
+    }
+    @media screen and (max-width: 650px) {
+      border: 1px solid #d9d9d9;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    border: 1px solid #d9d9d9;
+  }
+}
+
+//pagina resultados
+.line-options-resultados {
+  border-left: 1px solid #f1f1f1;
+  @media screen and (max-width: 650px) {
+    border: 1px solid #d9d9d9;
+  }
+  .img-seta-resultados {
+    float: right;
+    position: absolute;
+    padding: 35px 20px 0 235px;
+  }
+  .select-date {
+    position: relative;
+    padding-left: 28px;
+    color: #3e4146;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    -webkit-appearance: none; /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+    background-position: 218px center; /*Posição da imagem do background*/
+    width: 255px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 75px;
+    .option-date {
+      background-color: #f1f1f1;
+    }
+  }
+}
+
+//pagina news
+.line-options-news {
+  
+
+  .img-seta-news {
+    float: right;
+    position: absolute;
+    padding: 35px 20px 0 235px;
+  }
+  .select-date {
+    position: relative;
+    padding-left: 28px;
+    color: #3e4146;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    -webkit-appearance: none; /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove est425ilo padrão do FireFox*/
+    background-position: 218px center; /*Posição da imagem do background*/
+    width: 260px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 75px;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    .option-date {
+      background-color: #f1f1f1;
+    }
+    @media screen and (max-width: 650px) {
+      border: 1px solid #d9d9d9;
+      width: 100%;
+    }
+    @media screen and (max-width: 1170px) {
+      border-right: 1px solid #d9d9d9;
+    }
+  }
+}
+
+//pagina Multimidia
+.line-options-multimidia {
+  border-left: 1px solid #f1f1f1;
+  .img-seta-multimidia {
+    float: right;
+    position: absolute;
+    padding: 35px 20px 0 110px;
+  }
+  .select-date {
+    position: relative;
+    padding-left: 28px;
+    color: #3e4146;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    -webkit-appearance: none; /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+    background-position: 218px center; /*Posição da imagem do background*/
+    width: 155px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 75px;
+    .option-date {
+      background-color: #f1f1f1;
+    }
+    @media screen and (max-width: 650px) {
+      border: 1px solid #d9d9d9;
+      width: 100%;
+    }
+    @media screen and (max-width: 1023px) {
+      border-right: 1px solid #d9d9d9;
+    }
+  }
+}

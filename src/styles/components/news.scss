@@ -1,0 +1,95 @@
+.space-card-news {
+  margin-bottom: 30px;
+}
+
+.div-news-paginas {
+  background-color: $color-black;
+  width: 100%;
+  .header-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 40px 0;
+
+    @media screen and (max-width: 680px) {
+      display: block;
+    }
+    .news-title {
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 2px;
+      color: $color-red;
+    }
+    .div-button-news {
+      .button-news {
+        border: none;
+        border-bottom: 1px solid;
+        background-color: $color-black;
+        font-size: 16px;
+        line-height: 30px;
+        color: #b2b2b2;
+        padding: 2px 20px;
+        text-align: center;
+        margin: -2px;
+        font-weight: 100;
+
+        &:last-child {
+          padding-right: 0;
+        }
+        &:first-child {
+          padding-left: 0;
+        }
+        @media screen and (max-width: 445px) {
+         padding: 2px 5px;
+         line-height: 20px;
+          margin: 2px;
+          width: 100%;
+          
+  
+        }
+      }
+     
+      .button-news:hover {
+        color: $color-red;
+        font-weight: lighter;
+      }
+      @media screen and (max-width: 581px) {
+        display: flex;
+       padding: 2px 0;
+       justify-content: start;
+      }
+      @media screen and (max-width: 375px) {
+        display: block;
+        
+
+      }
+    }
+  }
+  .border-news-paginas {
+    border: none;
+  }
+  .ver-mais-news {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+      .text-ver-mais {
+        color: $color-white;
+      }
+      .icon-ver-mais {
+        color: $color-white;
+        padding-top: 15px;
+      }
+    }
+    .text-ver-mais {
+      font-size: 20px;
+      line-height: 30px;
+      color: $color-red;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+    .icon-ver-mais {
+      transition: 0.5s all;
+    }
+  }
+}

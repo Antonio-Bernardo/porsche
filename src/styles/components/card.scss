@@ -1,0 +1,299 @@
+//card pilotos
+.card-pilotos {
+  margin-bottom: 74px;
+  display: table;
+  .nome-pilotos {
+    font-size: 20px;
+    line-height: 1;
+    align-items: center;
+    background-color: #f1f1f1;
+    font-style: italic;
+    font-weight: bolder;
+    color: $color-gray-dark;
+    flex-basis: auto;
+    transform: skewX(-12deg);
+    padding: 2px 16px 8px 14px;
+    float: right;
+    display: table;
+    margin-bottom: 0;
+  }
+  .img-carro-pilotos {
+    float: left;
+    display: flex;
+  }
+  .numero-pilotos {
+    color: #d9d9d9;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -2px;
+    font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    float: right;
+    margin-bottom: 0;
+  }
+  .small-pilotos {
+    font-size: 40px;
+    letter-spacing: -2px;
+    margin-top: 15px;
+  }
+}
+
+//card comissão
+.card-comissao {
+  background-color: white;
+
+  .img-comissao {
+    width: 100%;
+  }
+  .title-comissao {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bolder;
+    color: #19191a;
+    margin: 10px 0 4px 19px;
+  }
+  .text-comissao {
+    font-size: 14px;
+    line-height: auto;
+    color: #b2b2b2;
+    margin: 12px 0 22px 19px;
+    padding-bottom: 22px;
+  }
+  .hr-comissao {
+    margin-left: 19px;
+    margin-right: 19px;
+    border-color: $color-red;
+  }
+}
+
+//card news
+.card-news {
+  border: 1px solid #d9d9d9;
+  display: flex;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+
+  .img-news {
+    transition: 0.3s all;
+    position: relative;
+    object-fit: cover;
+    @media screen and (max-width: 1023px) {
+      width: 100%;
+    }
+  }
+  &:hover {
+    .img-news {
+      transform: scale(1.1);
+      filter: grayscale(1);
+    }
+  }
+  .content {
+    padding: 30px 30px 15px 30px;
+    .header-news {
+      font-size: 14px;
+      line-height: 24px;
+      color: #b2b2b2;
+      display: flex;
+      justify-content: space-between;
+      .icon-relogio {
+        margin-right: 9px;
+      }
+    }
+    .title-news {
+      font-size: 22px;
+      line-height: 30px;
+      color: #e52e2e;
+    }
+    .text-news {
+      font-size: 14px;
+      line-height: 24px;
+      color: #4d4d4d;
+    }
+  }
+
+  &.vertical {
+    flex-direction: column;
+    .title-news {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
+//card piloto
+.card-piloto {
+  .text-piloto {
+    margin-top: 90px;
+    margin-bottom: 74px;
+    .title-piloto {
+      font-size: 40px;
+      font-style: italic;
+      font-weight: bolder;
+      color: #3d4045;
+    }
+    .p-piloto {
+      color: #4d4d4d;
+    }
+  }
+  .img-capacete-piloto {
+    float: left;
+    position: absolute;
+    margin-top: 36px;
+  }
+  .numero-piloto {
+    color: #e52e2e;
+    font-size: 100px;
+    line-height: 1;
+    letter-spacing: -6px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 27px;
+    margin-left: 45px;
+  }
+  .small-piloto {
+    font-size: 70px;
+    letter-spacing: -6px;
+  }
+  @media screen and (max-width: 1023px) {
+    .img-capacete-piloto {
+      position: relative;
+    }
+  }
+}
+.carro-piloto {
+  width: 100%;
+}
+
+//card carros
+.card-carros-parts {
+  height: 152px;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+
+  .div-text-parts {
+    background-color: $color-black;
+    opacity: 0.84;
+    height: 42px;
+    width: 100%;
+    .title-parts {
+      color: $color-red;
+      font-size: 16px;
+      line-height: 30px;
+      text-align: center;
+      font-style: italic;
+      font-weight: bold;
+      padding: 6px 0;
+      margin: 0;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 767px) {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+//card comissão
+.card-comissao {
+  background-color: white;
+
+  .img-comissao {
+    width: 100%;
+  }
+  .title-comissao {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bolder;
+    color: #19191a;
+    margin: 10px 0 4px 19px;
+  }
+  .text-comissao {
+    font-size: 14px;
+    line-height: auto;
+    color: #b2b2b2;
+    margin: 12px 0 22px 19px;
+    padding-bottom: 22px;
+  }
+  .hr-comissao {
+    margin-left: 19px;
+    margin-right: 19px;
+    border-color: $color-red;
+  }
+}
+
+//card produtos
+.card-produtos-vertical {
+  border: 1px solid #d9d9d9;
+  display: flex;
+  height: 100%;
+  background-color: white;
+  flex-direction: column;
+
+  .img-produtos {
+  }
+  .content {
+    padding: 30px 30px 0 30px;
+    .header-produtos {
+      font-size: 14px;
+      line-height: 24px;
+      color: #b2b2b2;
+      display: flex;
+      justify-content: space-between;
+    }
+    .title-produtos {
+      font-size: 18px;
+      line-height: 24px;
+      color: #e52e2e;
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+    .div-comprar {
+      display: flex;
+      justify-content: space-between;
+      .text-produtos {
+        font-size: 17px;
+        line-height: 24px;
+        color: #19191a;
+      }
+      .div-button-comprar{
+        .button-comprar{
+          background-color: $color-red;
+          border-radius: 2px;
+          border-color: transparent;
+          color: white;
+          font-size: 11px;
+          font-weight: bold;
+          font-style: italic;
+          padding: 5px 20px 8px 20px;
+          transform: skewX(-12deg);
+          text-align: center;
+          margin-right: 4px;
+          &:hover {
+            background-color: #7e2321;
+          }
+        }
+      }
+      @media screen and (max-width: 380px) {
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  
+}

@@ -1,0 +1,80 @@
+.div-sociais-paginas {
+  background-color: white;
+  width: 100%;
+  .header-sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 40px 0;
+
+    @media screen and (max-width: 680px) {
+      display: block;
+    }
+    .sociais-title {
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 2px;
+      color: $color-red;
+    }
+    .div-button-sociais {
+      .button-sociais {
+        border: none;
+        border-bottom: 1px solid;
+        background-color: white;
+        font-size: 16px;
+        line-height: 30px;
+        color: #b2b2b2;
+        padding: 2px 20px;
+        text-align: center;
+        margin: -2px;
+        font-weight: 100;
+
+        &:last-child {
+          padding-right: 0;
+        }
+        &:first-child {
+          padding-left: 0;
+        }
+        @media screen and (max-width: 445px) {
+          padding: 2px 5px;
+          line-height: 20px;
+          margin: 2px;
+          width: 100%;
+        }
+      }
+
+      .button-sociais:hover {
+        color: $color-red;
+        font-weight: bold;
+      }
+      @media screen and (max-width: 581px) {
+        display: flex;
+        padding: 2px 0;
+        justify-content: start;
+      }
+      @media screen and (max-width: 375px) {
+        display: block;
+      }
+    }
+  }
+  .div-link-insta {
+    display: flex;
+    justify-content: center;
+    
+    .text-ver-mais {
+      font-size: 20px;
+      line-height: 30px;
+      color: $color-red;
+      font-weight: 300;
+      margin-bottom: 0;
+      text-decoration: none;
+      
+      .icon-instagram {
+        margin-right: 5px;
+      }
+    }
+    @media screen and (max-width:470px){
+        
+    }
+  }
+}

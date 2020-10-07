@@ -1,0 +1,32 @@
+.botao {
+    border: none; 
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-color: #CC0000;
+    padding:0 10px;
+    margin: 0 10px;
+    margin-right: 100px;
+
+    &::before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        top: 0px;
+        position: absolute;
+        border-bottom: 20px solid transparent;
+        border-right: 15px solid #CC0000;
+        left: -15px;
+      }
+
+      &::after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        top: 0px;
+        position: absolute;
+        border-top: 20px solid transparent;
+        border-left: 15px solid #CC0000;
+        right: -15px;
+      }
+  }

@@ -1,0 +1,152 @@
+.line-date-etapas {
+  border-bottom: 1px solid #d9d9d9;
+  width: 100%;
+  padding: 0;
+
+  .div-line {
+    display: flex;
+
+    .line-date-etapas {
+      color: #3e4146;
+      background-color: #f1f1f1;
+      font-weight: 300;
+      display: block;
+      text-align: center;
+      border-right: 1px solid white;
+      .line-day {
+        font-size: 48px;
+        line-height: 60px;
+        margin: 0;
+      }
+      .line-month {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: -15px;
+        margin-bottom: 0;
+      }
+      &:hover {
+        background-color: black;
+        color: $color-red;
+        border-bottom: 1px solid $color-red;
+      }
+    }
+    @media screen and (max-width: 650px) {
+      display: block;
+      align-items: center;
+    }
+  }
+}
+.date-etapas {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 71px;
+  .date {
+    display: flex;
+    background-color: $color-red;
+    color: white;
+    width: 230px;
+    position: relative;
+    font-weight: 100;
+    margin-right: 17px;
+    .div-day-month {
+      border-right: solid 1px #ffff;
+      display: table;
+      margin: 20px;
+      .day {
+        font-size: 80px;
+        line-height: 60px;
+        padding: 10px 20px 0 10px;
+        margin: 0;
+        width: 100%;
+      }
+      .month {
+        font-size: 24px;
+        line-height: 30px;
+        padding: 0 30px 6px 10px;
+        margin: 0;
+      }
+    }
+    .icon-setas {
+      .left {
+        margin: 31px 20px 21px 20px;
+      }
+      .right {
+        margin: 31px 20px 21px 20px;
+      }
+    }
+    &:after {
+      content: "";
+      border-top: 21px solid #fff;
+      width: 0;
+      height: 0;
+      position: absolute;
+      border-right: 12px solid #fff;
+      border-bottom: 19px solid #e62e2e;
+      border-left: 12px solid #e62e2e;
+      border-radius: 0 0 5px 0;
+      right: -24px;
+      bottom: 35px;
+    }
+  }
+
+  .title-date-etapas {
+    display: block;
+    margin-top: 33px;
+
+    .title-etapa {
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 300;
+      color: $color-red;
+      margin-bottom: 17px;
+    }
+    .nome-pista {
+      font-size: 30px;
+      font-weight: 500;
+      color: #3e4146;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    display: block;
+    align-items: center;
+  }
+}
+
+.img-autodromo{
+  object-fit: contain;
+  width: 100%;
+  padding-top: 20px;
+  
+}
+.div-pista {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+
+  .div-pista-itens {
+    display: block;
+    width: 50%;
+    border-bottom: solid 1px #d9d9d9;
+    .hr-pista {
+      border-color: $color-red;
+      width: 20%;
+      margin: 0;
+    }
+    .img-sentido-pista {
+      float: left;
+      object-fit: contain;
+      margin-right: 8px;
+    }
+    .title-pista {
+      color: #b2b2b2;
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .text-pista {
+      color: #3e4146;
+      font-size: 14px;
+      line-height: 24px;
+      padding-right: 64px;
+    }
+  }
+}
